@@ -9,7 +9,6 @@ public class LoginPageObjects {
 	// this driver dont have scope
 
 	public WebDriver driver;
-
 	private By username = By.xpath("//input[@id='username']");
 	private By password = By.xpath("//input[@id='password']");
 	private By login = By.xpath("//input[@id='Login']");
@@ -19,7 +18,6 @@ public class LoginPageObjects {
 	public LoginPageObjects(WebDriver driver2) {
 		this.driver = driver2;
 	}
-
 	public WebElement enterUsername() {
 		return driver.findElement(username);
 	}

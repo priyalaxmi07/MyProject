@@ -23,7 +23,6 @@ public class verifyLogin extends Baseclass {
 		String expected = "Please check your password. If you still can't log in, contact your Salesforce administrator.";
 		a.assertEquals(actual, expected, "Error message is not matching");
 	*/	a.assertAll();
-	
 	}
 	@DataProvider
 	public Object[][] testData() {
@@ -34,5 +33,4 @@ public class verifyLogin extends Baseclass {
 		data[1][1]=Constant.password2;
 		return data;
 	}
-
 }

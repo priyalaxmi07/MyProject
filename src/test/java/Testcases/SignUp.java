@@ -36,8 +36,6 @@ public class SignUp {
 	  CommonMethods.selectDropdown(obj1.clickOncountry(), "IN");
 	  obj1.clickOncheckbox().click();
 	  obj1.clickOnstart().click();
-
 	    }
-	  
 	  }
 	    }
